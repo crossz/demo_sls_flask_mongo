@@ -3,7 +3,7 @@
 There are several methods to deploy serverless function on  AWS Lambda, as follows:
 
 - Pure Aws Labmda procedure
-- Zappa for Python (https://github.com/Miserlou/Zappa)
+- Zappa, Chalice for Python, this category makes things pretty easy. (https://aws.amazon.com/serverless/developer-tools/)
 - Serverless CLI (serverless.com and pypi packages, also https://github.com/serverless) 
     1. Use, the default out of box, serverless handler to return json and CORS can be done through settings in serverless.xml
     2. **Stay with Flask to work as API**
